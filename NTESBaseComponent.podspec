@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NTESBaseComponent"
-  spec.version      = "0.1"
+  spec.version      = "0.2"
   spec.summary      = "NTESBaseComponent."
 
   # This description is used to generate tags and improve search results.
