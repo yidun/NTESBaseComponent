@@ -10,9 +10,14 @@
 
 typedef NS_ENUM(NSUInteger, NTESLDErrorType) {
     NTESBaseLDSDKInnerError = 1,        // SDK自身异常(crash等)
-    NTESBaseLDSDKNoPass,                // SDK检测异常(动作不通过等)
+    NTESBaseLDSDKNoPass,                // 活体检测不通过
     NTESBaseLDSDKGetconf,               // getconf接口异常
-    NTESBaseLDSDKCheck                  // check接口异常
+    NTESBaseLDSDKCheck,                 // check接口异常
+    NTESBaseLDUploadImageError,         // 上传图片失败
+    NTESBaseLDAIInitError,              // 算法引擎初始化失败
+    NTESBaseLDOpenCameraError,          // 打开相机失败
+    NTESBaseLDLocalCheckError,          // 本地检测动作不通过
+    NTESBaseLDActiveExit,               // 主动退出
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -64,6 +69,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 // getconf接口返回的token
 @property (nonatomic, strong) NSString *token;
+
+// nos 服务objectName
+@property (nonatomic, strong) NSString *objectName;
 
 @end
 

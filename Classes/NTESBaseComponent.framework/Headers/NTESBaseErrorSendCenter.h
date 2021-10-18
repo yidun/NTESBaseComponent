@@ -50,6 +50,20 @@ NS_ASSUME_NONNULL_BEGIN
               actionType:(NSString *_Nullable)actionType;
 
 /**
+ *  @abstract   活体检测上传错误信息
+ *
+ *  @param      errorType       错误类型
+ *  @param      objectName    桶名
+ *  @param      httpCode         接口返回的code码
+ *  @param      actionType     动作类型
+ */
+- (void)collectLDErrorType:(NTESLDErrorType)errorType
+                objectName:(NSString * _Nullable)objectName
+                messags:(NSString * _Nullable)message
+               httpCode:(NSNumber * _Nullable)httpCode
+              actionType:(NSString *_Nullable)actionType;
+
+/**
  *  @abstract   一键登录错误信息上报
  *
  *  @param      errorType       错误类型

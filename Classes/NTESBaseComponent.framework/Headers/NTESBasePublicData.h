@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define NTESBASEESDKVERSION @"1.3"
+#define NTESBASEESDKVERSION @"1.4"
 
 typedef NS_ENUM(NSUInteger, NTESSendErrorEnvironment) {
     NTESSendErrorEnvironmentTest, // 测试环境
