@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NTESBaseComponent.h</key>
 		<data>
-		BNkX3oHgDIT8kbvmKulf0Gp7jPw=
+		G6RbdQOE08UOaZJ2x6aYJiVd+O0=
 		</data>
 		<key>Headers/NTESBaseCrashManager.h</key>
 		<data>
@@ -36,9 +36,13 @@
 		<data>
 		VTMR1Q6kXMhR/F+rAep+OxHXmP0=
 		</data>
+		<key>Headers/NTESLDCSUUID.h</key>
+		<data>
+		FQsvtorupHAf6oYNleLgn/PoDLE=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		fEcEJKLSfPJdAhS/4zH3g4UTHH4=
+		u04A8b2b4wOfH/dsFX7sqXw9efU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BNkX3oHgDIT8kbvmKulf0Gp7jPw=
+			G6RbdQOE08UOaZJ2x6aYJiVd+O0=
 			</data>
 			<key>hash2</key>
 			<data>
-			fuWwllr/jSgs040ORcCTGOcPXz+kgwOm/4Bx0TlHd7c=
+			JwMhr9Y6O4wn4sUcnV3gZU4J2s8vBm5JKo1s6AEbMjw=
 			</data>
 		</dict>
 		<key>Headers/NTESBaseCrashManager.h</key>
@@ -133,6 +137,17 @@
 			<key>hash2</key>
 			<data>
 			B63GrdrC7tsvSUkDub2Gf2wQ60aJt4X0YcNCF9bFyeE=
+			</data>
+		</dict>
+		<key>Headers/NTESLDCSUUID.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FQsvtorupHAf6oYNleLgn/PoDLE=
+			</data>
+			<key>hash2</key>
+			<data>
+			MauqKqaMHbKnVcGEpJtBq4z6HffYv1VnbQJ7/lz8qgQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

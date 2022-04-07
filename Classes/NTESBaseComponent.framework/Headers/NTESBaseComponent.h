@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char NTESBaseComponentVersionString[];
 #import "NTESBaseQPCollectModel.h"
 #import "NTESBaseLDCollectModel.h"
 #import "NTESBasePublicData.h"
+#import "NTESLDCSUUID.h"
 
 // In this header, you should import all the public headers of your framework using statements like #import <NTESBaseComponent/PublicHeader.h>
 
