@@ -18,6 +18,8 @@ typedef NS_ENUM(NSUInteger, NTESLDErrorType) {
     NTESBaseLDOpenCameraError,          // 打开相机失败
     NTESBaseLDLocalCheckError,          // 本地检测动作不通过
     NTESBaseLDActiveExit,               // 主动退出
+    NTESBaseLDNOSUoloadFailure,         // 上传NOS失败
+    NTESBaseLDAlgorithmWriteFailure,    // 算法写入沙盒失败
 };
 
 NS_ASSUME_NONNULL_BEGIN
