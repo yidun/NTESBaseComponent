@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NTESBaseComponent"
-  spec.version      = "1.9"
+  spec.version      = "2.0"
   spec.summary      = "NTESBaseComponent."
 
   # This description is used to generate tags and improve search results.
@@ -124,7 +124,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
   
-  spec.vendored_frameworks = ["Classes/NTESBaseComponent.framework"]
+  spec.vendored_frameworks = ["Classes/NTESBaseComponent.xcframework"]
   
   spec.libraries = "c++.1"
 
